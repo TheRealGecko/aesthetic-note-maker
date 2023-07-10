@@ -5,3 +5,10 @@ I want pretty notes but I don't know what pretty notes look like so now I have t
 I'll learn how to make aesthetic notes someday trust :sob:
 
 The example here is of some physics notes I took on notion (ignore the fact that they kinda suck). The Waves and Sound folder just has all the images of my physics notes, feel free to delete that lol.
+
+anskjdbjksf
+
+##to-do
+- make it look nice
+- dif colour palettes bc dif subjects r dif colours
+- dif styles?
