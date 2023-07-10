@@ -8,7 +8,7 @@ The example here is of some physics notes I took on notion (ignore the fact that
 
 anskjdbjksf
 
-##to-do
+## to-do
 - make it look nice
 - dif colour palettes bc dif subjects r dif colours
 - dif styles?
