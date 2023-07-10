@@ -1,0 +1,261 @@
+<meta charset="UTF-8" />
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        overflow: visible !important
+    }
+
+    body {
+        font-family: "notes";
+        font-size: 24px;
+        color: rgb(50, 50, 50);
+        padding: 0 10px;
+        background-size: 40px 40px;
+        background-image:
+            -webkit-linear-gradient(right, rgba(128, 128, 128, 0.297) 0.5px, transparent 0.5px),
+            -webkit-linear-gradient(bottom, rgba(128, 128, 128, 0.297) 0.5px, transparent 0.5px);
+    }
+
+    @page {
+        size: A4;
+        margin: 0;
+    }
+
+    @media print {
+        html, body {
+            width: 8.5in;
+            height: 11in;
+        }   
+    }
+
+    @font-face {
+        font-family: title;
+        src: url("fonts/moonbright.ttf") format('truetype');
+    }
+
+    @font-face {
+        font-family: header;
+        src: url("fonts/untlang.ttf") format('truetype');
+    }
+
+    @font-face {
+        font-family: notes;
+        src: url("fonts/monday.ttf") format('truetype');
+    }
+
+    .title {
+        width: 100%;
+    }
+
+    h1 {
+        position: relative;
+        font-family: "title";
+        font-size: 80px;
+        font-weight: normal;
+        color:#83A8D4;
+        text-shadow: 1px 1px #2874A6;
+        margin: 10px 0;
+    }
+
+    h1:after {
+        content: "";
+        display: block;
+        width: 54%;
+        height: 15px;
+        background: rgba(131, 167, 212, 0.726);
+        border-top: rgba(211, 247, 255, 0.726) 5px solid;
+        border-bottom: rgba(211, 247, 255, 0.726) 5px solid;
+        right: 0;
+        top: 41%;
+        position: absolute;
+      }
+
+    h2 {
+        font-family: "header";
+        font-size: 25px;
+        color: #83A8D4;
+        border: 3px solid #D3F7FF;
+        background-color: #eefcff;
+        padding: 0px 15px;
+        padding-right: 0;
+        margin: 10px 0;
+        width: auto;
+        display: table;
+    }
+
+    ul {
+        margin-left: 15px;
+    }
+
+    img {
+        max-width: 300px;
+        margin: 10px;
+        border: 3px solid #D3F7FF;
+    }
+
+    .caption {
+        font-family: "notes";
+        font-size: 12px;
+        margin-top: 5px;
+        color: rgb(70, 70, 70);
+    }
+    
+    .info {
+        margin-bottom: 20px;
+    }
+
+    mark {
+        background-color: #D3F7FF;
+    }
+</style>
+<h1>waves and sound</h1>
+<h2>Equations</h2>
+<p><strong>Frequency =</strong> # of cycles/time (in Hz → 1/s or s^-1)</p>
+<p><strong>Period =</strong> Time to complete 1 cycle → time/# of cycles</p>
+<p><strong>Universal wave equation (2 versions)</strong></p>
+<p><img alt="wavelength / period " src="Waves%20and%20Sound%20815c2e42298a475d9219b9ac6a75ba09/Untitled.png" /></p>
+<p>wavelength / period </p>
+<p><img alt="wavelength * 1/period" src="Waves%20and%20Sound%20815c2e42298a475d9219b9ac6a75ba09/Untitled%201.png" /></p>
+<p>wavelength * 1/period</p>
+<p><strong>Speed of sound (elasticity + density)</strong></p>
+<p><img alt="Untitled" src="Waves%20and%20Sound%20815c2e42298a475d9219b9ac6a75ba09/Untitled%202.png" /></p>
+<p><strong>Speed of sound (temp)</strong></p>
+<p><img alt="Untitled" src="Waves%20and%20Sound%20815c2e42298a475d9219b9ac6a75ba09/Untitled%203.png" /></p>
+<p><strong>Beat frequency =</strong> |wave 1 frequency - wave 2 frequency|</p>
+<p><strong>Doppler effect</strong> </p>
+<p><img alt="Untitled" src="Waves%20and%20Sound%20815c2e42298a475d9219b9ac6a75ba09/Untitled%204.png" /></p>
+<p><strong>Sound intensity (dB)</strong> = 10 log((P/A)/(10^-12 W/m^2)) (power per unit area)</p>
+<p><strong>Look at this later</strong></p>
+<p><img alt="Untitled" src="Waves%20and%20Sound%20815c2e42298a475d9219b9ac6a75ba09/Untitled%205.png" /></p>
+<h2>General Definitions</h2>
+<p>Mechanical wave</p>
+<ul>
+<li>Transfer of energy thru disturbance in a medium</li>
+<li>Come from vibrating source</li>
+</ul>
+<p><strong>Transverse wave</strong></p>
+<ul>
+<li>Movement perpendicular to rest pos. axis</li>
+<li>E.g: swing</li>
+</ul>
+<p><img alt="Untitled" src="Waves%20and%20Sound%20815c2e42298a475d9219b9ac6a75ba09/Untitled%206.png" /></p>
+<p><strong>Longitudinal wave</strong></p>
+<ul>
+<li>Movement parallel to rest pos. axis</li>
+<li>E.g: spring</li>
+</ul>
+<p><img alt="Untitled" src="Waves%20and%20Sound%20815c2e42298a475d9219b9ac6a75ba09/Untitled%207.png" /></p>
+<p>Torsional wave</p>
+<ul>
+<li>Object <mark>twists</mark> around rest pos. axis</li>
+</ul>
+<p><img alt="Untitled" src="Waves%20and%20Sound%20815c2e42298a475d9219b9ac6a75ba09/Untitled%208.png" /></p>
+<p><strong>Cycle</strong> - 1 pattern of the motion</p>
+<p><strong>Frequency -</strong> # of cycles/time (in Hz → 1/s or s^-1)</p>
+<p><strong>Period -</strong> Time to complete 1 cycle → time/# of cycles</p>
+<p><strong>Amplitude -</strong> Max distance from rest pos.</p>
+<p><strong>Crest/Trough</strong> - Max/min pnt on transverse wave</p>
+<p><strong>Compression/Rarefaction</strong> - Most compressed/uncompressed point longitudinal wave</p>
+<p><strong>Wavelength -</strong> Distance btwn <mark>2 consecutive pnts</mark> in phase (e.g: crest to crest, compression to compression)</p>
+<p><strong>Standing wave</strong></p>
+<p><strong>Resonance</strong></p>
+<p><strong>In phase</strong>  - 2 waves same phase shift</p>
+<p><strong>Out of phase -</strong> different phase shifts</p>
+<p><strong>Completely out of phase -</strong> Half-wavelength difference in phase shift </p>
+<p><img alt="Untitled" src="Waves%20and%20Sound%20815c2e42298a475d9219b9ac6a75ba09/Untitled%209.png" /></p>
+<p><strong>Vibration</strong> - periodic motion abt a equilib pnt (basically smthing that goes back and forth periodically)</p>
+<h2>Interference</h2>
+<p><strong>Principle of superposition -</strong>  Displacement of a particle = sum of separate displacements</p>
+<p><strong>Transmission</strong></p>
+<ul>
+<li>Moving btwn mediums → speed of wave changes</li>
+<li><mark>Partial reflection</mark> at pnt btwn mediums</li>
+<li>Less dense → more dense = inverted reflection, not inverted transmission</li>
+<li>More dense → less dense = reflection/transmission not inverted</li>
+<li>Speed of wave dependent on medium, elasticity, density, temperature</li>
+</ul>
+<p><strong>Standing wave</strong></p>
+<ul>
+<li>2 waves (same wavelength + amplitude) move thru each other → makes pattern of <mark>“stationary”</mark> areas</li>
+<li><strong>Node</strong> - stationary pnts (areas of deconstructive interference)<ul>
+<li>Occur every 1/2 wavelength</li>
+</ul>
+</li>
+<li><strong>Antinode -</strong> crests/troughs (constructive interference)</li>
+<li>Fixed end<ul>
+<li>Nodes at ends</li>
+</ul>
+</li>
+<li>1 fixed end<ul>
+<li>Node at one end, antinode in the other</li>
+</ul>
+</li>
+<li>No fixed ends<ul>
+<li>Antinode at ends, node in middle</li>
+</ul>
+</li>
+</ul>
+<p><strong>Resonance</strong></p>
+<ul>
+<li>When interfering wave matches <mark>natural frequency</mark> → forms standing wave → object oscillates with large amplitude</li>
+</ul>
+<p><strong>Damping</strong></p>
+<ul>
+<li>Decrease in wave amplitude</li>
+<li>E.gs: noise cancellation earphones, shock absorbers (dampen car motion so less rebound on tire springs → car stays in contact with ground)</li>
+</ul>
+<h2>Sound</h2>
+<ul>
+<li>Longitudinal wave</li>
+<li>Need medium for transmission</li>
+</ul>
+<p>Characteristics</p>
+<ul>
+<li><strong>Pitch -</strong> related to frequency of wave<ul>
+<li>&gt; frequency = &gt; pitch</li>
+<li>Below 20 Hz = infrasonic, above 20 kHz = ultrasonic</li>
+</ul>
+</li>
+<li><strong>Volume -</strong> related to amplitude<ul>
+<li>&gt; amp = &gt; sound</li>
+</ul>
+</li>
+<li><strong>Quality/Timbre -</strong> most sounds not single frequency, but many tgt</li>
+</ul>
+<p>Sound speed</p>
+<ul>
+<li>Solid &gt; liquid &gt; gas</li>
+<li>Warm air &gt; cold air</li>
+<li>Dependant on objects density (K) + elasticity ./(p)</li>
+</ul>
+<p><img alt="Untitled" src="Waves%20and%20Sound%20815c2e42298a475d9219b9ac6a75ba09/Untitled%202.png" /></p>
+<ul>
+<li>Mach # = speed of object/speed of sound<ul>
+<li>&gt; speed of sound = supersonic</li>
+<li>&lt; speed of sound = subsonic</li>
+</ul>
+</li>
+<li>Sonic boom → basically just breaking sound barrier too lazy to write more here's a diagram tho</li>
+</ul>
+<p><img alt="Untitled" src="Waves%20and%20Sound%20815c2e42298a475d9219b9ac6a75ba09/Untitled%2010.png" /></p>
+<ul>
+<li>Echo = reflection of sound</li>
+<li>Loudness (dB) vs sound intensity → loudness = ears response to sound intensity</li>
+</ul>
+<p>Beats</p>
+<ul>
+<li>Sound alternating btwn loud/soft bc of interfering waves that r almost same wavelength + frequency</li>
+</ul>
+<p><img alt="Untitled" src="Waves%20and%20Sound%20815c2e42298a475d9219b9ac6a75ba09/Untitled%2011.png" /></p>
+<ul>
+<li>Beat frequency = # of max intensity pts per second<ul>
+<li>beat frequency = |wave 1 frequency - wave 2 frequency|</li>
+</ul>
+</li>
+</ul>
+<h2>Doppler effect</h2>
+<ul>
+<li>Source generating waves approach observer → frequency sounds like it increases (opposite for moving away)</li>
+</ul>
+<p><img alt="Untitled" src="Waves%20and%20Sound%20815c2e42298a475d9219b9ac6a75ba09/Untitled%2012.png" /></p>

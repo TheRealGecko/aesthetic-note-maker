@@ -1,0 +1,111 @@
+<meta charset="UTF-8" />
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        overflow: visible !important
+    }
+
+    body {
+        font-family: "notes";
+        font-size: 24px;
+        color: rgb(50, 50, 50);
+        padding: 0 10px;
+        background-size: 40px 40px;
+        background-image:
+            -webkit-linear-gradient(right, rgba(128, 128, 128, 0.297) 0.5px, transparent 0.5px),
+            -webkit-linear-gradient(bottom, rgba(128, 128, 128, 0.297) 0.5px, transparent 0.5px);
+    }
+
+    @page {
+        size: A4;
+        margin: 0;
+    }
+
+    @media print {
+        html, body {
+            width: 8.5in;
+            height: 11in;
+        }   
+    }
+
+    @font-face {
+        font-family: title;
+        src: url("fonts/moonbright.ttf") format('truetype');
+    }
+
+    @font-face {
+        font-family: header;
+        src: url("fonts/untlang.ttf") format('truetype');
+    }
+
+    @font-face {
+        font-family: notes;
+        src: url("fonts/monday.ttf") format('truetype');
+    }
+
+    .title {
+        width: 100%;
+    }
+
+    h1 {
+        position: relative;
+        font-family: "title";
+        font-size: 80px;
+        font-weight: normal;
+        color:#83A8D4;
+        text-shadow: 1px 1px #2874A6;
+        margin: 10px 0;
+    }
+
+    h1:after {
+        content: "";
+        display: block;
+        width: 54%;
+        height: 15px;
+        background: rgba(131, 167, 212, 0.726);
+        border-top: rgba(211, 247, 255, 0.726) 5px solid;
+        border-bottom: rgba(211, 247, 255, 0.726) 5px solid;
+        right: 0;
+        top: 41%;
+        position: absolute;
+      }
+
+    h2 {
+        font-family: "header";
+        font-size: 25px;
+        color: #83A8D4;
+        border: 3px solid #D3F7FF;
+        background-color: #eefcff;
+        padding: 0px 15px;
+        padding-right: 0;
+        margin: 10px 0;
+        width: auto;
+        display: table;
+    }
+
+    ul {
+        margin-left: 15px;
+    }
+
+    img {
+        max-width: 300px;
+        margin: 10px;
+        border: 3px solid #D3F7FF;
+    }
+
+    .caption {
+        font-family: "notes";
+        font-size: 12px;
+        margin-top: 5px;
+        color: rgb(70, 70, 70);
+    }
+    
+    .info {
+        margin-bottom: 20px;
+    }
+
+    mark {
+        background-color: #D3F7FF;
+    }
+</style>
